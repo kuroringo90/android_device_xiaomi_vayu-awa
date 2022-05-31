@@ -105,7 +105,8 @@ BOARD_KERNEL_CMDLINE := \
     earlycon=msm_geni_serial,0xa90000 \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
-    service_locator.enable=1
+    service_locator.enable=1 \
+    kpti=off
 
 BOARD_MKBOOTIMG_ARGS := --header_version 2
 
