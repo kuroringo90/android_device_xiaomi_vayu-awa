@@ -196,5 +196,8 @@ ro.surface_flinger.set_touch_timer_ms=750
 # WiFi
 wifi.aware.interface=wifi-aware0
 
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # System
 persist.sys.binary_xml=false
