@@ -168,6 +168,7 @@ BOARD_USES_METADATA_PARTITION := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
+BOARD_VENDOR := xiaomi
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
