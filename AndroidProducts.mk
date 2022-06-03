@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_vayu.mk
+    $(LOCAL_DIR)/vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_vayu-user \
-    superior_vayu-userdebug \
-    superior_vayu-eng
+    vayu-user \
+    vayu-userdebug \
+    vayu-eng
