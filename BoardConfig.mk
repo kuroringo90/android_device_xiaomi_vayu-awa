@@ -172,6 +172,8 @@ TARGET_BOARD_PLATFORM := msmnile
 
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
