@@ -166,6 +166,9 @@ on property:sys.boot_completed=1
     # wsf Range : 1..1000 So set to bare minimum value 1.
     write /proc/sys/vm/watermark_scale_factor 1
 
+    # Enable dt2w
+    write /sys/touchpanel/double_tap 1
+    
     # Enable oom_reaper
     write /sys/module/lowmemorykiller/parameters/oom_reaper 1
 
