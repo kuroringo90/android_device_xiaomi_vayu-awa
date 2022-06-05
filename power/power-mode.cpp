@@ -23,7 +23,7 @@
 #define SET_CUR_VALUE 0
 #define Touch_Doubletap_Mode 14
 
-#define TOUCH_DEV_PATH "/dev/xiaomi-touch"
+#define TOUCH_DEV_PATH "/sys/touchpanel/double_tap"
 
 #define TOUCH_MAGIC 0x5400
 #define TOUCH_IOC_SETMODE TOUCH_MAGIC + SET_CUR_VALUE
