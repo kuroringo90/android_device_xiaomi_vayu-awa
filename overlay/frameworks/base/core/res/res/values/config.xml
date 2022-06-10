@@ -683,5 +683,7 @@
          activated. -->
      <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+     <bool name="config_enableShellMainThread">true</bool>
 
 </resources>
