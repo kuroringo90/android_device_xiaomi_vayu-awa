@@ -51,3 +51,6 @@ vendor.iop.enable_uxe=1
 
 # IORap I/O Prefetching
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
