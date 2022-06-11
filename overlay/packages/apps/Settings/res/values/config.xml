@@ -37,4 +37,8 @@
     <!-- Battery health -->
     <string name="config_batteryRemainingCapacityNode">/sys/class/power_supply/bms/charge_full</string>
     <string name="config_batteryDesignCapacityNode">/sys/class/power_supply/bms/charge_full_design</string>
+
+     <!-- Maintainer info -->
+    <string name="config_maintainer_name" translatable="false">ste0090 X Restintrip</string>
+
 </resources>
