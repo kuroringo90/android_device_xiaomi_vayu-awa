@@ -117,6 +117,8 @@ BOARD_MKBOOTIMG_ARGS := --header_version 2
 
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton
+TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1
+TARGET_KERNEL_USE_LLD := true
 TARGET_KERNEL_CONFIG := vayu_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8150
 
