@@ -40,8 +40,6 @@ ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.dex2oat-threads=8
 
-# Disable vsync for cpu rendered apps
-debug.cpurend.vsync=false
 
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
@@ -54,3 +52,13 @@ persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
 # Blur on app-launch
 ro.launcher.blur.appLaunch=0
+
+dalvik.vm.image-dex2oat-filter=quicken 
+dalvik.vm.image-dex2oat-threads=8 
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 
+dalvik.vm.dex2oat-filter=quicken 
+dalvik.vm.dex2oat-threads=8 
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 
+dalvik.vm.boot-dex2oat-threads=8 
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+
