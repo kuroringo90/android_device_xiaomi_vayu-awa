@@ -43,5 +43,5 @@
 
      <!-- Maintainer info -->
     <string name="config_maintainer_name" translatable="false">ste0090 X Restintrip</string>
-
+    <string name="config_maintainer_link"  translatable="false">https://linktr.ee/theperryteam_</string>
 </resources>
