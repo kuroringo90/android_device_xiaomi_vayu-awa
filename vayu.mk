@@ -28,3 +28,11 @@ TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="vayu_global-user 12 SKQ1.211006.001 V13.0.3.0.SJUMIXM release-keys" \
+    PRODUCT_NAME=vayu_global \
+    PRODUCT_MODEL=M2102J20SI
+
+BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.3.0.SJUMIXM:user/release-keys
+
