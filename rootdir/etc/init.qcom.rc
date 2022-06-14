@@ -333,3 +333,9 @@ service logger /system/bin/logcat -b all -D -f /cache/boot_log.txt
 on property:sys.boot_completed=1
     # Stop the logger service
     stop logger
+
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
