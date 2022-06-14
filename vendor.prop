@@ -168,6 +168,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
+ro.vendor.perf.scroll_opt=true
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
