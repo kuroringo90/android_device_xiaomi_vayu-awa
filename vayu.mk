@@ -27,6 +27,9 @@ USE_PIXEL_CHARGER_IMAGES := true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
 
+# Lawnchair
+$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
