@@ -193,6 +193,9 @@ debug.stagefright.omx_default_rank=0
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
